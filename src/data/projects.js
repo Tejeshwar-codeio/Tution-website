@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    id: 'ai-chatbot',
+    title: 'AI Chatbot',
+    description: 'Intelligent conversational assistant with NLP and context memory.',
+    tech: ['Python', 'OpenAI API', 'FastAPI', 'React'],
+    difficulty: 'Advanced',
+    gradient: 'from-violet-600 to-indigo-600',
+  },
+  {
+    id: 'mern-dashboard',
+    title: 'MERN Dashboard',
+    description: 'Real-time analytics dashboard with auth, charts & CRUD operations.',
+    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+    difficulty: 'Intermediate',
+    gradient: 'from-blue-600 to-cyan-500',
+  },
+  {
+    id: 'student-management',
+    title: 'Student Management System',
+    description: 'Complete SMS with attendance, grades, and parent portal.',
+    tech: ['React', 'Node.js', 'PostgreSQL'],
+    difficulty: 'Intermediate',
+    gradient: 'from-emerald-600 to-teal-500',
+  },
+  {
+    id: 'iot-smart-home',
+    title: 'IoT Smart Home',
+    description: 'Connected home automation with sensors and mobile control.',
+    tech: ['Arduino', 'MQTT', 'React Native'],
+    difficulty: 'Advanced',
+    gradient: 'from-orange-600 to-amber-500',
+  },
+  {
+    id: 'face-attendance',
+    title: 'Face Recognition Attendance',
+    description: 'Automated attendance using computer vision and ML.',
+    tech: ['Python', 'OpenCV', 'TensorFlow', 'Flask'],
+    difficulty: 'Advanced',
+    gradient: 'from-pink-600 to-rose-500',
+  },
+];
